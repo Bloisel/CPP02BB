@@ -6,11 +6,11 @@
 #    By: bloisel <bloisel@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 00:49:30 by bloisel           #+#    #+#              #
-#    Updated: 2024/11/30 03:04:28 by bloisel          ###   ########.fr        #
+#    Updated: 2024/11/30 04:43:40 by bloisel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC = main.cpp 
+SRC = main.cpp Fixed.cpp 
 NAME =	Fixed 
 CC = c++ -Wall -Wextra -Werror -std=c++98
 

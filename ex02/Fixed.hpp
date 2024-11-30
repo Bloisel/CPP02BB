@@ -6,7 +6,7 @@
 /*   By: bloisel <bloisel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 00:20:55 by bloisel           #+#    #+#             */
-/*   Updated: 2024/11/30 02:51:37 by bloisel          ###   ########.fr       */
+/*   Updated: 2024/11/30 04:43:16 by bloisel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,11 +69,7 @@ public:
     }
 
     
-    friend std::ostream& operator<<(std::ostream& out, const Fixed& fixed) 
-    {
-        out << fixed.toFloat();
-        return out;
-    }
+   
 
    
     int getRawBits() const { return _value; }
@@ -158,7 +154,7 @@ public:
 };
 
 
-
+ std::ostream& operator<<(std::ostream& out, const Fixed& fixed);
 
 
 #endif
